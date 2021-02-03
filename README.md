@@ -1,3 +1,4 @@
+<style>
 /* Body styling */
 body {
   background: #222629;
@@ -120,3 +121,4 @@ h1 {
   opacity: 1;
   height: 100%;
 }
+</style>
