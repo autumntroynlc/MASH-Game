@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=0.5, maximum-scale=0.5, minimal-ui">
     <title>MASH</title>
     <link href="normalize.css" rel="stylesheet">
-    <link href="syle.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
   </head>
   <!-- HEAD SECTION ENDS -->
 
