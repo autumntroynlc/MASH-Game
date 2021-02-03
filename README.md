@@ -1,4 +1,4 @@
-/*! normalize.css v3.0.1 | MIT License | git.io/normalize */
+<style>/*! normalize.css v3.0.1 | MIT License | git.io/normalize */
 
 /**
  * 1. Set default font family to sans-serif.
@@ -423,3 +423,4 @@ td,
 th {
   padding: 0;
 }
+</style>
