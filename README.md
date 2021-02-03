@@ -1,51 +1,122 @@
-<!DOCTYPE html>
-<html>
+/* Body styling */
+body {
+  background: #222629;
+  color: #6e6b70;
+  font-family: georgia;
+  letter-spacing: 2 px;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.65em;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 40px 10px;  
+}
 
-  <!-- HEAD SECTION STARTS -->
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=0.5, maximum-scale=0.5, minimal-ui">
-    <title>MASH</title>
-    <link href="" rel="stylesheet">
-    <link href="" rel="stylesheet">
-  </head>
-  <!-- HEAD SECTION ENDS -->
 
-  <!-- BODY SECTION STARTS -->
-  <body>
-    <h1>MASH</h1>
-    <p class="description">Come my child and sit down. Now, don't be shy! Before you I have these blanks - fill them in and see where your future lies.</p>
-    <form action="" method="post" id="mash">
-      <div id="answers" class="hide">
-        <p>Ah! How strange! Well, it's to be expected. You will dwell in <span id="answer_1"></span> with a <span id="answer_3"></span> and you will become a <span id="answer_2"></span> who owns a <span id="home"></span>.
-      </div>
-      <div class="bucket">
-        <div class="choice-bucket">
-          <h4 class="highlight">The first question - Where are the places you want to live?</h4>
-          <input name="answer_1[]" type="text">
-          <input name="answer_1[]" type="text">
-          <input name="answer_1[]" type="text">
-          <input name="answer_1[]" type="text">
-        </div>
-        <div class="choice-bucket">
-          <h4 class="highlight">Now tell me, who do you think you are meant to be? </h4>
-          <input name="answer_2[]" type="text">
-          <input name="answer_2[]" type="text">
-          <input name="answer_2[]" type="text">
-          <input name="answer_2[]" type="text">
-        </div>
-        <div class="choice-bucket">
-          <h4 class="highlight">And lastly, give me four animals.</h4>
-          <input name="answer_3[]" type="text">
-          <input name="answer_3[]" type="text">
-          <input name="answer_3[]" type="text">
-          <input name="answer_3[]" type="text">
-        </div>
-      </div>
-      <button type="submit" class="button-submit">Your fate is sealed when you press this button. Click it and it will reveal your future!</button>
-    </form>  
-    <script src=""></script>
-  </body>
-  <!-- BODY SECTION ENDS -->
+/* Heading Styles */
+h1 {
+  font-size: 80px;
+  color: #86C232;
+  background:#2f3235;
+  font-family: arial;
+  text-align: center;
+}
 
-</html>
+
+/* Game Directions */
+.description {
+  text-align: center;
+  margin: 80px auto 40px;
+}
+
+
+/* Submit Button, Columns, Questions, and Inputs */
+.button-submit {
+  background: #2f3235;
+  border: 1px dotted #394c58;
+  border-radius: 6px;
+  color: #86C232;
+  cursor: crosshair; 
+  display: block;
+  font-size: 20px;
+  text-transform:lowercase;
+  margin: 0 auto 60px;
+  padding: 1em 2em; 
+  text-align: center; 
+  font-family:georgia;
+}
+
+.bucket {
+  display: inline-block;
+  margin-bottom: 40px;
+  width: 100%;
+}
+
+.choice-bucket {
+  display: inline-block;
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 33.333333%;
+}
+
+.choice-bucket label {
+  font-size: 12px;
+  line-height: 13px;
+  margin: 15px 4%;
+}
+
+.choice-bucket input {
+  border: 0;
+  border-radius: 6px;
+  color: #4c5e5b;
+  font-size: 18px;
+  margin: 15px 4%;
+  outline: 0;
+  padding: 16px 0;
+  text-indent: 20px;
+  width: 92%;  
+}
+
+.choice-bucket label ~ input {
+  margin-top: 0;
+}
+
+.highlight {
+  font-size: 18px;
+  line-height: 24px;
+  margin-left: 30px;
+  opacity: .8;
+}
+
+
+
+/* Answer Div */
+#answers {
+  margin: 70px 0;
+  background: #8e9090;
+  border-radius: 2px;
+  color: #4c5e5b;
+  transition: 1s linear;
+}
+
+#answers p {
+  max-width: 500px;
+  margin: auto;
+  padding: 20px 0;
+}
+
+#answers p span {
+  font-weight: none;
+}
+
+
+.hide {
+  opacity: 0;
+  height: 0;
+}
+
+.show {
+  opacity: 1;
+  height: 100%;
+}
