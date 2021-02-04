@@ -1,5 +1,3 @@
-
-/* Body styling */
 body {
   background: #222629;
   color: #6e6b70;
@@ -13,8 +11,6 @@ body {
   padding: 40px 10px;  
 }
 
-
-/* Heading Styles */
 h1 {
   font-size: 80px;
   color: #86C232;
@@ -24,14 +20,13 @@ h1 {
 }
 
 
-/* Game Directions */
+
 .description {
   text-align: center;
   margin: 80px auto 40px;
 }
 
 
-/* Submit Button, Columns, Questions, and Inputs */
 .button-submit {
   background: #2f3235;
   border: 1px dotted #394c58;
@@ -91,8 +86,6 @@ h1 {
 }
 
 
-
-/* Answer Div */
 #answers {
   margin: 70px 0;
   background: #8e9090;
