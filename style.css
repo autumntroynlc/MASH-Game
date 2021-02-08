@@ -93,10 +93,10 @@ h1 {
 
 /* Answer Div */
 #answers {
-  margin: 70px 0;
-  background: #8e9090;
+  margin: 80px 0;
+  background: #2f3235;
   border-radius: 2px;
-  color: #4c5e5b;
+  color: #86C232;
   transition: 1s linear;
 }
 
